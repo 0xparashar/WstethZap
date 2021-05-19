@@ -26,6 +26,8 @@ Transaction 2: Swap Eth for stEth at https://kovan.etherscan.io/tx/0xcf45e32b1f0
 
 1 Eth was swapped for 1.0019 stEth
 
+Amount Out can be calculated by using Quoter of Uniswap V3 and accordingly adjusted with steth-wsteth conversion rate from Wsteth contract
+
 # Instructions
 
 Set Infura Key in terminal

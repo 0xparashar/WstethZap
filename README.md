@@ -41,3 +41,7 @@ To compile and deploy
 `truffle compile --all`
 
 `npx truffle migrate --network kovan`
+
+I have already hard coded addresses for Uniswap pool, wstEth and weth in contract.
+
+When deploying on mainnet, make sure to change addresses accordingly before deploying

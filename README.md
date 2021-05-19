@@ -25,3 +25,19 @@ Transaction 1: Swap stEth for Eth at https://kovan.etherscan.io/tx/0x873853c1132
 Transaction 2: Swap Eth for stEth at https://kovan.etherscan.io/tx/0xcf45e32b1f05da3f9417987d0664357a47065a57b79d4489593f39ea611f13ca
 
 1 Eth was swapped for 1.0019 stEth
+
+# Instructions
+
+Set Infura Key in terminal
+
+`export INFURA_KEY=xxxxxxx`
+
+Add your private key in .secret
+
+To compile and deploy
+
+`npm install`
+
+`truffle compile --all`
+
+`npx truffle migrate --network kovan`
